@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import "reset.css";
+@import "var.css";
+
+/* component(요소,부품) */
+@import "component/status-bar.css";
+
+/* screen */
+@import "screen/Welcome-header.css";
+@import "screen/login-form.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}

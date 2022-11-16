@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
+    <link rel="stylesheet" href="css\styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome To Kokoa Talk</title>
   </head>
   <body>
-    <div calss="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -16,7 +17,7 @@
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <span>1500%</span>
+        <span>150%</span>
         <i class="fas fa-battery-full"></i>
         <i class="fas fa-bolt"></i>
       </div>
@@ -24,12 +25,13 @@
     <header class="welcome-header">
       <h1 class="welcome-header__title">Welcome to Kokoa Talk</h1>
       <p class="welcome-header__text">
-        이메일,핸드폰 번호 를 사용해 로그인 하세요 , 계정이없다면 만드세용
+        이메일,핸드폰 번호 를 사용해 로그인 하세요 .만약 계정이없다면 새로
+        만드세요.
       </p>
     </header>
-    <form id="login-form">
-      <input type="text" placeholder="이메일 혹은 핸드폰 번호" />
-      <input type="password" placeholder="비밀번호" />
+    <form action="friends.html" method="get" id="login-form">
+      <input name="아이디" type="text" placeholder="이메일 혹은 핸드폰 번호" />
+      <input name="비밀번호" type="password" placeholder="비밀번호" />
       <input type="submit" value="로그인" />
       <button>회원 가입</button>
       <a href="#">코코아 계정 또는 비밀번호 찾기</a>
