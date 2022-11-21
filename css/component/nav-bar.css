@@ -18,24 +18,15 @@
   color: #2e363e;
 }
 .nav__알림1 {
-  background-color: tomato;
-  border-radius: 50%;
-  color: white;
-  display: flex;
-  width: 20px;
-  height: 20px;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   left: 20px;
   bottom: 20px;
 }
 .nav__알림2 {
-  display: flex;
-  width: 5px;
-  height: 5px;
-  background-color: tomato;
-  border-radius: 50%;
-  position: absolute;
   left: 30px;
+}
+
+.nav__알림3 {
+  top: -5px;
+  left: 00px;
 }

@@ -1,0 +1,19 @@
+.nav__알림베이스 {
+  background-color: tomato;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__알림베이스2 {
+  display: flex;
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+}
