@@ -1,0 +1,39 @@
+.setting-listbox {
+  margin-top: 30px;
+}
+.setting-list {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+}
+
+.setting-list i {
+  margin-right: 25px;
+  font-size: 22px;
+  opacity: 0.8;
+  width: 30px;
+}
+.setting-list__column-text {
+  color: var(--g-color);
+}
+
+.setting-list__version-padding {
+  padding-bottom: 40px;
+}
+.setting-list__privacy-padding {
+  padding-top: 40px;
+}
+
+.New-alram {
+  display: flex;
+}
+
+.New-alram .nav__알림베이스 {
+  margin-left: 10px;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 700;
+}

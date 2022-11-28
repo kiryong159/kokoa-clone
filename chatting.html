@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="main icon" href="screenshot/icon.JPG" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatting</title>
+  </head>
+  <body id="chat-screen">
+    <!-- 와이파이,배터리,시계 관련  -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-lock status-bar__column__lock-margin"></i>
+        <span>150%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+    <!-- 상단 헤더 -->
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="javascript:history.back();"
+          ><i class="fa-solid fa-chevron-left fa-2x"></i
+        ></a>
+      </div>
+      <div class="alt-header__column">
+        <span class="alt-header__column-title">Nicolas</span>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-2x"> </i>
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </div>
+    </header>
+    <!-- 메인 페딩--->
+    <div class="main-screen-padding main-chat">
+      <div class="chatting-timestamp">
+        <span class="chatting-timestamp-text">Tuesday, June 30, 2020</span>
+      </div>
+      <div class="message-row">
+        <img src="screenshot/friendjam.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Nicolas</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:26</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row-me">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:26</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 채팅키보드 -->
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input tpye="text" placeholder="Write a message ..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button><i class="fa-solid fa-circle-arrow-up"></i></button>
+      </div>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/157b3c4d50.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -26,3 +26,7 @@
 .status-bar__column:first-child span {
   margin-right: 5px;
 }
+
+.status-bar__column__lock-margin {
+  margin-right: 10px;
+}

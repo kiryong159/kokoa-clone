@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find</title>
+    <title>More</title>
   </head>
   <body>
     <!-- 와이파이,배터리,시계 관련  -->
@@ -50,15 +50,16 @@
         </li>
       </ul>
     </nav>
-    <!-- 파인드에 아이콘2개 -->
+    <!-- more에 아이콘3개 -->
     <header class="screen-header">
-      <h1 class="screen-header__text">Find</h1>
+      <h1 class="screen-header__text">More</h1>
       <div class="screen-header__icon">
         <span>
           <a href="#">
             <i class="fa-solid fa-magnifying-glass fa-lg"> </i>
           </a>
         </span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span>
           <span class="nav__알림3 nav__알림베이스2"></span>
           <a href="setting.html"><i class="fa-solid fa-gear fa-lg"> </i></a>
@@ -66,84 +67,80 @@
       </div>
     </header>
     <!--.아이콘4개 -->
-    <div class="main-screen-padding">
+    <div class="main-screen-padding more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src=screenshot/sleet.jpg class="user-component__avatar
+          use-com-ava-big">
+          <div class="user-component__text">
+            <h4 class="user-component__title">Sleet</h4>
+            <h6 class="user-component__subtitle">
+              +1 787-493-4219
+              <i class="fa-solid fa-circle-exclamation"></i>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="fa-regular fa-square-minus fa-3x"></i>
+        </div>
+      </div>
       <div class="icon-row">
         <div class="icon-row__icon">
-          <i class="fa-solid fa-qrcode"></i>
-          <span>QR code</span>
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>캘린더</span>
         </div>
-        <div class="icon-row__icon">
+        <div class="icon-row__icon icon-row__reddot">
+          <span class="nav__알림4 nav__알림베이스2"></span>
           <i class="fa-regular fa-address-book"></i>
-          <span>Add by Contacts</span>
+          <span>토크 드라이브</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fa-solid fa-fingerprint"></i>
-          <span>Add by ID</span>
+          <i class="fa-regular fa-face-smile"></i>
+          <span>이모티콘</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fa-regular fa-envelope"></i>
-          <span>Invite</span>
+          <i class="fa-solid fa-brush"></i>
+          <span>테마</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-link"></i>
+          <span>어카운트</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-comments"></i>
+          <span>오픈챗</span>
+        </div>
+        <div class="icon-row__icon">
+          <span></span>
+        </div>
+        <div class="icon-row__icon">
+          <span></span>
         </div>
       </div>
-      <!-- 리코맨드 프랜즈 -->
-      <div class="recomend-friends">
-        <span class="recomend-friends__title">Recommend Friends</span>
-        <span>너는추천받을 친구가없다</span>
-      </div>
-      <!-- 오픈챗 포스트 부문 -->
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h4>오픈 챗</h4>
-          <span>고투 오픈챗 홈 <i class="fa-solid fa-chevron-right"></i></span>
-        </div>
-        <div class="open-post">
-          <!-- 왼쪽 -->
-          <div class="open-post__column">
-            <h5 class="open-post__title">#BTS</h5>
-            <h6 class="open-post__hashetag">#bts#army#friends</h6>
-            <div class="open-post__members">
-              <img src="screenshot/btsimg.JPG" />
-              <span class="open-post__members-count">802 members</span>
-              <div class="divider"></div>
-              <span class="open-post__members-status">Active</span>
-            </div>
+      <div class="more-suggest">
+        <h4>Suggestions</h4>
+        <div class="more-sugeest__iconbox">
+          <div class="more-suggest__icon">
+            <img src="screenshot/cacaostory.jpg" />
+            <span>Kakao Story</span>
           </div>
-          <!-- 오른쪽 -->
-          <div class="open-post__column">
-            <div class="open-post__photo">
-              <img class="open-post__bts-logo" src="screenshot/btslogo.jpg" />
-              <div class="open-post__photo-text">
-                <i class="fa-solid fa-heart"></i> <span>326</span>
-              </div>
-            </div>
+          <div class="more-suggest__icon">
+            <img src="screenshot/kakaofriend.jpg" />
+            <span>Kakao Friends</span>
           </div>
-        </div>
-        <div class="open-post2">
-          <div class="open-post2__column">
-            <h4>Bts Gang~</h4>
-            <span class="open-post2__subtext"
-              >#englishonly #ipurpleyou #jimin #taeta...</span
-            >
-            <div class="open-post2__members">
-              <img src="screenshot/btsimg.JPG" />
-              <span>299 members</span>
-              <div class="divider2"></div>
-              <span class="open-post2__members-active">Active</span>
-            </div>
+          <div class="more-suggest__icon">
+            <img src="screenshot/friendjam.jpg" />
+            <span>Friends Gem</span>
           </div>
-          <div class="open-post2__column">
-            <div class="open-post2__column-photo">
-              <img src="screenshot/btslogo.jpg" />
-              <div class="open-post2__column-heart">
-                <i class="fa-solid fa-heart"></i>
-                <span>215</span>
-              </div>
+          <div class="more-suggest__icon">
+            <div class="more-suggest__icon-test">
+              <i class="fa-solid fa-calendar-check fa-2x"></i>
             </div>
+            <span>TEST</span>
           </div>
         </div>
       </div>
     </div>
-
     <script
       src="https://kit.fontawesome.com/157b3c4d50.js"
       crossorigin="anonymous"

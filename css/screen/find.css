@@ -1,21 +1,3 @@
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icon i {
-  font-size: 35px;
-}
-
-.find-icons__icon span {
-  margin-top: 20px;
-}
 .recomend-friends {
   margin: 25px 0px;
   border-top: var(--main-border);
@@ -51,6 +33,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: var(--main-border);
+  padding-bottom: 15px;
 }
 
 .open-post__title {
@@ -92,11 +76,92 @@
 
 /* 주관작성 */
 .open-post__bts-logo {
-  width: 80%;
-  height: 80%;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
 }
 
-.open-post__column:last-child {
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo-text {
+  position: absolute;
+  left: 50px;
+  top: 90px;
+  border-radius: 20px;
+  background-color: var(--g-color);
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.open-post__photo-text span {
+  margin-left: 5px;
+}
+
+.open-post2 {
+  margin-top: 25px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.open-post2__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.open-post2__column h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.open-post2__subtext {
+  color: var(--g-color);
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.open-post2__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post2__members img {
+  width: 35px;
+  height: 35px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.open-post2__members {
+  color: var(--g-color);
+  font-size: 25px;
+}
+.divider2 {
+  width: 1px;
+  height: 25px;
+  background-color: var(--g-color);
+  margin: 0px 10px;
+}
+.open-post2__members-active {
+  color: rgb(255, 0, 191);
+}
+
+.open-post2__column-photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.open-post2__column-photo {
+  position: relative;
+}
+
+.open-post2__column-heart {
+  color: white;
+  background-color: var(--g-color);
+  padding: 8px 15px;
+  border-radius: 15px;
+  position: absolute;
+  left: 35px;
+  bottom: 10px;
 }

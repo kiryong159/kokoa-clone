@@ -8,12 +8,18 @@
 @import "component/screen-header.css";
 @import "component/user-component.css";
 @import "component/bedge.css";
+@import "component/icon-row.css";
+@import "component/alt-screen-header.css";
 
 /* screen */
 @import "screen/Welcome-header.css";
 @import "screen/login-form.css";
 @import "screen/friends.css";
 @import "screen/find.css";
+@import "screen/more.css";
+@import "screen/setting.css";
+@import "screen/chatting.css";
+
 body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
