@@ -23,6 +23,44 @@
   margin-top: 110px;
   z-index: 0;
 }
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes leftfadein {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes rightfadein {
+  0% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.message-row-author {
+  animation: leftfadein 1s linear;
+}
+.message-row-me {
+  opacity: 0;
+  animation: rightfadein 1s linear forwards;
+  animation-delay: 2s;
+}
 .chatting-timestamp {
   display: flex;
   justify-content: center;
@@ -115,6 +153,7 @@
   width: 100%;
   border: var(--main-border);
   border-radius: 20px;
+  transition: transform 1s ease-in-out;
 }
 
 .reply i {
@@ -150,4 +189,21 @@
 
 .reply__column input::placeholder {
   padding: 10px;
+}
+
+.reply .reply__column:first-child,
+.reply .fa-face-smile,
+.reply button {
+  transition: all 1s ease-in-out;
+}
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-face-smile,
+.reply:focus-within button {
+  opacity: 0;
+}
+
+.reply:focus-within input {
+  width: 98vw;
+  transform: translateX(-9vw);
 }

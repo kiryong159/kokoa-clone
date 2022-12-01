@@ -17,3 +17,16 @@
 .screen-header__icon span:last-child {
   position: relative;
 }
+
+@keyframes cogspin {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotatez(360deg);
+  }
+}
+
+.screen-header__icon .fa-gear:hover {
+  animation: cogspin 2s linear infinite;
+}
