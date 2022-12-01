@@ -204,6 +204,6 @@
 }
 
 .reply:focus-within input {
-  width: 98vw;
-  transform: translateX(-9vw);
+  width: 90vw;
+  transform: translateX(-5vw);
 }
